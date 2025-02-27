@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Header.scss';
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -25,10 +25,18 @@ const Header = () => {
       section.scrollIntoView({ behavior: 'smooth' });
     }
   };
+   // Define navigation links to pass to BurgerMenu
+   const navLinks = [
+    { href: "#about", text: "About Me" },
+    { href: "#skills", text: "Skills" },
+    { href: "#portfolio", text: "Portfolio" },
+    { href: "#testimonial", text: "Testimonial" },
+    { href: "#contact", text: "Contact" }
+  ];
 
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
-      <div className="container">
+      <div className="header_container">
         <div className="header_name">
           <span>Maksym</span>
           <span>Chukhrai</span>
@@ -50,6 +58,7 @@ const Header = () => {
         >
           Telegram
         </a>
+        <BurgerMenu navLinks={navLinks} />
       </div>
     </header>
   );
