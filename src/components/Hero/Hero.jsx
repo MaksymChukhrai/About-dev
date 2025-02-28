@@ -11,22 +11,24 @@ const Hero = () => {
           <source src={backgroundVideo} type="video/webm" />
         </video>
       </div>
-      <div className="container">
+      <div className="hero-container">
         <div className="hero-content">
           <div className="profile-image">
             <img src={profilePhoto} alt="Maksym Chukhrai" />
           </div>
           <div className="hero-text">
-            <h1>I'm Maksym Chukhrai</h1>
+            <h1>I'm <span>Maksym Chukhrai</span></h1>
             <h2>Full Stack Developer</h2>
+            <button type="button" className="contact-btn" >
             <a 
               href="https://wa.me/yourphonenumber" 
-              className="contact-btn" 
+              
               target="_blank" 
               rel="noopener noreferrer"
             >
               Contact Me
             </a>
+            </button>
           </div>
         </div>
       </div>

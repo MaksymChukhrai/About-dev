@@ -1,50 +1,63 @@
 // src/components/BurgerMenu/BurgerMenu.jsx
-import React, { useState, useEffect } from 'react';
+// src/components/BurgerMenu/BurgerMenu.jsx
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import linkedinIcon from '../../assets/icons/LinkedIn.svg';
 import telegramIcon from '../../assets/icons/Telegram.svg';
 import youtubeIcon from '../../assets/icons/Youtube.svg';
 import githubIcon from '../../assets/icons/Github.svg';
 
-
 const BurgerMenu = ({ navLinks }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    document.body.style.overflow = !isOpen ? 'hidden' : 'auto';
+    setIsOpen((prev) => !prev);
   };
 
-  // Close menu when clicking outside or on a link
+  // Блокировка прокрутки страницы при открытом меню
+  useLayoutEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+      document.body.style.height = '100vh';
+    } else {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+      document.body.style.height = 'auto';
+    };
+  }, [isOpen]);
+
+  // Закрытие меню при клике вне него или изменении размера экрана
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (isOpen && !event.target.closest('.burger-menu-container')) {
+      if (!event.target.closest('.burger-menu-container')) {
         setIsOpen(false);
-        document.body.style.overflow = 'auto';
       }
     };
 
     const handleResize = () => {
-      if (window.innerWidth > 768 && isOpen) {
+      if (window.innerWidth > 768) {
         setIsOpen(false);
-        document.body.style.overflow = 'auto';
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
-    window.addEventListener('resize', handleResize);
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+      window.addEventListener('resize', handleResize);
+    }
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
       window.removeEventListener('resize', handleResize);
-      document.body.style.overflow = 'auto';
     };
   }, [isOpen]);
-
-  // Close menu when clicking on a navigation link
-  const handleLinkClick = () => {
-    setIsOpen(false);
-    document.body.style.overflow = 'auto';
-  };
+    // Close menu when clicking on a navigation link
+    const handleLinkClick = () => {
+      setIsOpen(false);
+      document.body.style.overflow = 'auto';
+    };
 
   return (
     <div className="burger-menu-container">
@@ -58,8 +71,6 @@ const BurgerMenu = ({ navLinks }) => {
       </div>
 
       <div className={`burger-menu ${isOpen ? 'open' : ''}`}>
-
-        
         <div className="menu-content">
           <div className="name-section">
             <h2>Maksym</h2>
@@ -70,10 +81,12 @@ const BurgerMenu = ({ navLinks }) => {
             <a href="#about" className="nav-link" onClick={handleLinkClick}>About me</a>
             <a href="#skills" className="nav-link" onClick={handleLinkClick}>Skills</a>
             <a href="#portfolio" className="nav-link" onClick={handleLinkClick}>Portfolio</a>
+            <a href="#testimonial" className="nav-link" onClick={handleLinkClick}>Testimonial</a>
+            <a href="#contact" className="nav-link" onClick={handleLinkClick}>Contact</a>
           </nav>
 
           <div className="burger-menu-footer">
-            <button className="contact-button" onClick={handleLinkClick}>
+            <button className="contact-button" onClick={() => setIsOpen(false)}>
               Contact me
             </button>
             
