@@ -1,7 +1,7 @@
 .hero{
     position: relative;
     margin-top: 30px;
-    max-width: 390px;
+    max-width: 425px;
     margin-right: auto; 
     margin-left: auto;
     .video-background{
@@ -13,25 +13,30 @@
 }
 .profile-image img{
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 0;
     overflow: hidden;
 }
 @media screen and (min-width: 350px){
     .profile-image img{
-        top: 26%;
+        top: 24%;
 
     }
 };
 
 @media screen and (min-width: 375px){
     .profile-image img{
-        top: 22%;
+        top: 21%;
     
     }
 };
     
-
+@media screen and (min-width: 425px){
+    .profile-image img{
+        top: 14%;
+    
+    }
+};
 
 
 .contact-btn{

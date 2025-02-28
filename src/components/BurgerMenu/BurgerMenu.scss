@@ -3,7 +3,7 @@
 .burger-menu-container {
     position: relative;
     z-index: 1000;
-    top: 5px;
+    top: 10px;
     
     @media (max-width: 768px) {
       display: block;
@@ -18,7 +18,7 @@
     height: 22px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     
     span {
       display: block;
