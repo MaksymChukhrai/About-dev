@@ -16,8 +16,10 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <div className='background-skills'>
         <AboutMe />
         <Skills />
+        </div>
         <ChooseMe />
         {/* <Portfolio /> */}
         <Testimonial />

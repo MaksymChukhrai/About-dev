@@ -70,18 +70,15 @@ img {
   text-align: center;
   position: relative;
   
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 3px;
-    background-color: $primary-color;
-  }
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: -10px;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  //   width: 100px;
+  //   height: 3px;
+  //   background-color: $primary-color;
+  // }
 }
 
-section {
-  padding: $spacing-xl 0;
-}
