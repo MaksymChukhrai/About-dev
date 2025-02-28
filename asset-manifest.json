@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/About-dev/static/css/main.484ce547.css",
+    "main.css": "/About-dev/static/css/main.d8334135.css",
     "main.js": "/About-dev/static/js/main.fd2f1669.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
     "static/media/me.png": "/About-dev/static/media/me.8fcd093da83e3d729097.png",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
     "static/media/client-photo.jpg": "/About-dev/static/media/client-photo.24a83cc90675cdf3849a.jpg",
     "static/media/mob-menu-background.jpg": "/About-dev/static/media/mob-menu-background.d8926efb7cb149495c4f.jpg",
     "static/media/Github.svg": "/About-dev/static/media/Github.603a6d3322ff5be9800c1e711b92d049.svg",
@@ -13,11 +15,11 @@
     "static/media/Youtube.svg": "/About-dev/static/media/Youtube.021f7ca96a68a8056fad379f1b4c7cfd.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "index.html": "/About-dev/index.html",
-    "main.484ce547.css.map": "/About-dev/static/css/main.484ce547.css.map",
+    "main.d8334135.css.map": "/About-dev/static/css/main.d8334135.css.map",
     "main.fd2f1669.js.map": "/About-dev/static/js/main.fd2f1669.js.map"
   },
   "entrypoints": [
-    "static/css/main.484ce547.css",
+    "static/css/main.d8334135.css",
     "static/js/main.fd2f1669.js"
   ]
 }
