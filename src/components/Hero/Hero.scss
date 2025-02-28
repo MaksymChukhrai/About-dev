@@ -13,20 +13,20 @@
 }
 .profile-image img{
     position: absolute;
-    top: 30vh;
+    top: 30%;
     left: 0;
     overflow: hidden;
 }
 @media screen and (min-width: 350px){
     .profile-image img{
-        top: 26vh;
+        top: 26%;
 
     }
 };
 
 @media screen and (min-width: 375px){
     .profile-image img{
-        top: 22vh;
+        top: 22%;
     
     }
 };
