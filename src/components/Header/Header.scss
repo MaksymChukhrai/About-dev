@@ -30,15 +30,20 @@
     
     span {
       &:first-child {
-        font-size: 18px;
-        color: #fff;
-        font-weight: normal;
+        font-size: 20px;
+        color: var(--primary-text-color);
+        font-weight: 400;
+        line-height: 1.4; /* 28px */
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
       }
       
       &:last-child {
-        font-size: 24px;
-        color: #4ECDC4;
-        font-weight: bold;
+        font-size: 36px;
+        color:var(--bolt-primary-text-color);
+        font-weight:700;
+        line-height: 1.2;
+        letter-spacing: 0.72px;
       }
     }
   }
@@ -110,10 +115,3 @@
     }
   }
   
-  .burger-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
-  }

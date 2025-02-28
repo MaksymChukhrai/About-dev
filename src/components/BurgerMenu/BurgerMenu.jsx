@@ -1,10 +1,10 @@
 // src/components/BurgerMenu/BurgerMenu.jsx
 import React, { useState, useEffect } from 'react';
-// import closeIcon from '../../assets/icons/ic_baseline-close.svg';
 import linkedinIcon from '../../assets/icons/LinkedIn.svg';
 import telegramIcon from '../../assets/icons/Telegram.svg';
 import youtubeIcon from '../../assets/icons/Youtube.svg';
 import githubIcon from '../../assets/icons/Github.svg';
+
 
 const BurgerMenu = ({ navLinks }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,9 +58,7 @@ const BurgerMenu = ({ navLinks }) => {
       </div>
 
       <div className={`burger-menu ${isOpen ? 'open' : ''}`}>
-        {/* <button className="close-button" onClick={toggleMenu}>
-          <img src={closeIcon} alt="Close menu" />
-        </button> */}
+
         
         <div className="menu-content">
           <div className="name-section">
