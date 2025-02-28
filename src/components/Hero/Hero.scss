@@ -11,16 +11,25 @@
 
     }
 }
-
 .profile-image img{
     position: absolute;
-    top: 185px;
+    top: 250px;
     left: 0;
     overflow: hidden;
 }
 
+@media screen and (min-width: 375px){
+    .profile-image img{
+        top: 185px;
+        left: 0;
+    }
+};
+    
+
+
+
 .contact-btn{
-    width: 343px;
+    max-width: 343px;
     padding: 14px 60px;
     align-items: center;
     border-radius: 2px;
