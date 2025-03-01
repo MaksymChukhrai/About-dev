@@ -1,40 +1,47 @@
 import React from 'react';
 import './ChooseMe.scss';
-import { FaCode, FaClock, FaLightbulb, FaHeadset } from 'react-icons/fa';
+
+// Import custom icons
+import profIcon from '../../assets/icons/prof.png';
+import individualIcon from '../../assets/icons/individual.png';
+import qualityIcon from '../../assets/icons/quality.png';
+import collabIcon from '../../assets/icons/collab.png';
 
 const ChooseMe = () => {
   const reasons = [
     {
-      icon: <FaCode />,
-      title: "PROFESSIONAL & CLEAN PROCESS",
-      description: "I follow software development best practices ensuring clean, maintainable code."
+      icon: profIcon,
+      title: "Professionalism and precision",
+      description: "My work is based on high-quality standards and attention to details."
     },
     {
-      icon: <FaLightbulb />,
-      title: "PRACTICAL APPROACH",
-      description: "I focus on practical solutions that solve real business problems efficiently."
+      icon: individualIcon,
+      title: "Individual approach",
+      description: "I aim to understand your business, goals, and challenges to provide you with the web application that suits your needs."
     },
     {
-      icon: <FaClock />,
-      title: "RESULTS",
-      description: "I deliver measurable results that help achieve your business objectives."
+      icon: qualityIcon,
+      title: "Quality",
+      description: "I write web applications with clean code, avoiding website builders. This ensures high-speed performance, resilience, and minimal intervention in the code, making them highly adapted to Search Engine Optimization (SEO)."
     },
     {
-      icon: <FaHeadset />,
-      title: "OPEN SUPPORTIVE APPROACH",
-      description: "I provide ongoing support and clear communication throughout the project lifecycle."
+      icon: collabIcon,
+      title: "Collaborative approach",
+      description: "I value openness and collaboration with clients at all stages of development."
     }
   ];
 
   return (
     <section className="choose-me" id="choose">
-      <div className="container">
+      <div className="choose-me-container">
         <h2 className="section-title">Why Choose Me</h2>
         
         <div className="reasons-grid">
           {reasons.map((reason, index) => (
             <div className="reason-card" key={index}>
-              <div className="icon">{reason.icon}</div>
+              <div className="reason-icon">
+                <img src={reason.icon} alt={reason.title} />
+              </div>
               <h3>{reason.title}</h3>
               <p>{reason.description}</p>
             </div>

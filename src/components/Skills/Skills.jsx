@@ -18,10 +18,10 @@ const Skills = () => {
     { name: "JavaScript", icon: jsLogo },
     { name: "HTML/CSS", icon: htmlLogo },
     { name: "Redux", icon: reduxLogo },
-    { name: "React", icon: reactLogo },
+    { name: "Sass", icon: sassLogo },
     { name: "Next.js", icon: nextjsLogo },
     { name: "Pug", icon: pugLogo },
-    { name: "Sass", icon: sassLogo },
+    { name: "React", icon: reactLogo },
     { name: "TypeScript", icon: typeScriptLogo },
   ];
 
