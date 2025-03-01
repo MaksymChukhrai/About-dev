@@ -1,5 +1,4 @@
 import React from 'react';
-import './Skills.scss';
 import jsLogo from '../../assets/icons/javascript.svg';
 import reactLogo from '../../assets/icons/react.svg';
 import nodejsLogo from '../../assets/icons/nodejs.svg';

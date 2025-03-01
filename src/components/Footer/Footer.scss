@@ -1,0 +1,66 @@
+.footer{
+    background-image: 
+      url('../../assets/images/mob-menu-contact-background.jpg');
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: soft-light;
+}
+
+.footer-container{
+   padding: 40px 16px;
+   color: var(--secondary-text-color);
+   .section-title{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0.64px;
+   
+    text-align: center;
+    margin-bottom: 24px;
+}
+}
+.contact-info{
+    align-self: stretch;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.28px;
+    .contact-details{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:40px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+}
+.social-links{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+    li>a>img{
+        width: 34px;
+        height: 34px;
+        svg{
+            fill: var(--secondary-text-color);
+            filter: brightness(0) invert(1);
+        }
+    }
+}
+
+.copyright{
+    align-self: stretch;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.28px;
+    margin-top:40px
+}

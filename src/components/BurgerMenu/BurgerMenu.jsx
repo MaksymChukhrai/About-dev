@@ -1,8 +1,7 @@
 // src/components/BurgerMenu/BurgerMenu.jsx
-// src/components/BurgerMenu/BurgerMenu.jsx
 import React, { useState, useEffect, useLayoutEffect } from 'react';
 import linkedinIcon from '../../assets/icons/LinkedIn.svg';
-import telegramIcon from '../../assets/icons/Telegram.svg';
+import telegramIcon from '../../assets/icons/telegram.svg';
 import youtubeIcon from '../../assets/icons/Youtube.svg';
 import githubIcon from '../../assets/icons/Github.svg';
 

@@ -5,21 +5,18 @@ import testimonialImage from '../../assets/images/client-photo.jpg';
 const Testimonial = () => {
   return (
     <section className="testimonial" id="testimonial">
-      <div className="container">
+      <div className="testimonial-container">
         <h2 className="section-title">Testimonial</h2>
         
         <div className="testimonial-card">
           <div className="testimonial-content">
-            <div className="quote">"</div>
+            <div className="quote"></div>
             <p>
-              The collaboration with Maksym was absolutely wonderful! His technical expertise and
-              ability to understand our business needs resulted in an application that not only
-              met but exceeded our expectations. His communication was clear, timely, and professional
-              throughout the project. I would highly recommend Maksym for any web development project.
+            Your commitment to delivering a polished and functional website has exceeded our expectations. Moreover, your responsiveness and willingness to accommodate any changes or updates have been commendable. You've been a pleasure to work with, and your proactive communication ensured that the project progressed smoothly and efficiently.
             </p>
             <div className="client-info">
-              <h4>Olga Petrenko</h4>
-              <p>CEO, TechSolutions Ltd.</p>
+              <h4>Igor Tarasenko</h4>
+              <p>CEO, Law Company Tarasenko and Partners</p>
             </div>
           </div>
           <div className="client-image">
