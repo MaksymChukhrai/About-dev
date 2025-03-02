@@ -1,49 +1,115 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+// Импорт изображений
+import miminoLarge from '../../assets/images/projects/mimino/mimino-mob-large.jpg';
+import miminoSmall from '../../assets/images/projects/mimino/mimino-mob-small.jpg';
+import heathyhubLarge from '../../assets/images/projects/healthy_hub/hh-mob-large.jpg';
+import heathyhubSmall from '../../assets/images/projects/healthy_hub/hh-mob-small.jpg';
+import furnitureLarge from '../../assets/images/projects/furniture/furniture-mob-large.jpg';
+import furnitureSmall from '../../assets/images/projects/furniture/furniture-mob-small.jpg';
+import cinemaniaLarge from '../../assets/images/projects/cinemania/cinemania-mob-large.jpg';
+import cinemaniaSmall from '../../assets/images/projects/cinemania/cinemania-mob-small.jpg';
+import advocateLarge from '../../assets/images/projects/advocate/advocate-mob-large.jpg';
+import advocateSmall from '../../assets/images/projects/advocate/advocate-mob-small.jpg';
+import casinoLarge from '../../assets/images/projects/casino/casino-mob-large.jpg';
+import casinoSmall from '../../assets/images/projects/casino/casino-mob-small.jpg';
+
 const Portfolio = () => {
-  // Sample projects data - replace with your actual projects
+  // Данные проектов согласно макету
   const projects = [
     {
       id: 1,
-      title: "Project 1",
-      description: "A responsive web application built with React and Node.js that allows users to manage their tasks efficiently. Features include user authentication, task categorization, and real-time updates.",
-      fullDescription: "A responsive web application built with React and Node.js that allows users to manage their tasks efficiently. Features include user authentication, task categorization, and real-time updates. The frontend uses React with Redux for state management and styled components for UI. The backend is built with Node.js, Express, and MongoDB, providing a RESTful API for the frontend. The application also includes features like drag-and-drop task management, priority settings, deadline notifications, and task sharing capabilities. The project follows clean architecture principles and includes comprehensive test coverage.",
-      imageLarge: "project1-large.jpg",
-      imageSmall: "project1-small.jpg",
-      liveUrl: "https://project1.example.com",
-      githubUrl: "https://github.com/username/project1"
+      title: "Healthy hub",
+      description: "HealthyHub. A nutrition and weight-tracking app with personalized features via user accounts.",
+      fullDescription: {
+        overview: "HealthyHub is designed to help users monitor their dietary habits and weight changes. It features personalized dashboards, registration, and account-specific data tracking.",
+        role: "Frontend Developer in a team. I implemented the graph section, developed API data handling logic, and ensured responsive design.",
+        techStack: "JavaScript, React, Redux, Node.js, Express, MongoDB."
+      },
+      imageLarge: heathyhubLarge,
+      imageSmall: heathyhubSmall,
+      liveUrl: "https://maksymchukhrai.github.io/team-project-SlimTrack360/",
+      githubUrl: "https://github.com/MaksymChukhrai/team-project-SlimTrack360"
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "An e-commerce platform built with MERN stack, featuring product browsing, cart management, secure checkout, and admin panel for inventory management.",
-      fullDescription: "An e-commerce platform built with MERN stack, featuring product browsing, cart management, secure checkout, and admin panel for inventory management. The application includes user authentication with JWT, product filtering and search, wishlists, order tracking, payment integration with Stripe, and a comprehensive admin dashboard for managing products, orders, and users. The frontend is built with React and uses context API for state management. The backend uses Express.js with MongoDB for database operations. The platform is fully responsive and optimized for performance across different devices.",
-      imageLarge: "project2-large.jpg",
-      imageSmall: "project2-small.jpg",
-      liveUrl: "https://project2.example.com",
-      githubUrl: "https://github.com/username/project2"
+      title: "MiMiHo",
+      description: "Mimino Hotel - A website for a hotel and restaurant featuring room booking and menu services.",
+      fullDescription: {
+        overview: "Mimino Hotel is a user-friendly platform for managing hotel reservations and restaurant services.",
+        role: "Frontend Developer. I contributed to the website's design, functionality, and responsive implementation.",
+        techStack: "Tech Stack: HTML5, CSS, JavaScript."
+      },
+      imageLarge: miminoLarge,
+      imageSmall: miminoSmall,
+      liveUrl: "https://maksymchukhrai.github.io/Mimino-project/",
+      githubUrl: "https://github.com/MaksymChukhrai/Mimino-project"
     },
     {
       id: 3,
-      title: "Project 3",
-      description: "A real-time chat application with private messaging, group chats, and file sharing capabilities using Socket.io, React, and Node.js.",
-      fullDescription: "A real-time chat application with private messaging, group chats, and file sharing capabilities using Socket.io, React, and Node.js. The application features real-time messaging with typing indicators, read receipts, user presence status, file uploads, emoji picker, message search, and chat history. The frontend is built with React and uses custom hooks for socket management. The backend uses Express with Socket.io for real-time communication and MongoDB for storing messages and user data. The application is responsive and works across desktop and mobile devices.",
-      imageLarge: "project3-large.jpg",
-      imageSmall: "project3-small.jpg",
-      liveUrl: "https://project3.example.com",
-      githubUrl: "https://github.com/username/project3"
+      title: "Furniture re-stretching project",
+      description: "Pet adoption platform for helping meet owners and pets needs.",
+      fullDescription: {
+        overview: "This app showcases services, projects, and allows customers to contact the business.",
+        role: "Full Stack Developer. I conceptualized the app, created the design, wrote SEO-friendly markup, implemented JavaScript and PHP, and deployed the site.",
+        techStack: "JavaScript, PHP, HTML/CSS"
+      },
+      imageLarge: furnitureLarge,
+      imageSmall: furnitureSmall,
+      liveUrl: "https://7studio.com.ua/",
+      githubUrl: "https://github.com/MaksymChukhrai/Furniture-re-stretching-project"
     },
-    // Add more projects as needed
+    {
+      id: 4,
+      title: "Cinemania",
+      description: "Cinemania offers basic description, filtering and information features.",
+      fullDescription: {
+        overview: "Cinemania offers movie descriptions, trailers, and a personalized catalog system.",
+        role: "My Role: Frontend Developer in a team. I worked on API data integration, data logic, and adaptive design.",
+        techStack: "Vanilla JavaScript, HTML/CSS, REST API, Parcel"
+      },
+      imageLarge: cinemaniaLarge,
+      imageSmall: cinemaniaSmall,
+      liveUrl: "https://maksymchukhrai.github.io/team-project-cinemania/",
+      githubUrl: "https://github.com/MaksymChukhrai/team-project-cinemania"
+    },
+    {
+      id: 5,
+      title: "Advocate web application",
+      description: "AdvocApp - A professional web application for an attorney's services.",
+      fullDescription: {
+        overview: "This app highlights the attorney's expertise and allows clients to contact and learn about services.",
+        role: "Full Stack Developer. I wrote SEO-friendly markup, implemented JavaScript and PHP, and deployed the project.",
+        techStack: "JavaScript, PHP."
+      },
+      imageLarge: advocateLarge,
+      imageSmall: advocateSmall,
+      liveUrl: "https://igor-tarasenko.com/",
+      githubUrl: "https://github.com/MaksymChukhrai/advocatapp"
+    },
+    {
+      id: 6,
+      title: "Casino Extra",
+      description: "Casino Extra - A promotional web app for online casino services in Curaçao.",
+      fullDescription: {
+        overview: "This app focuses on enhancing page load speed and SEO for better promotional reach.",
+        role: "Frontend Developer. I optimized UI, improved page load speed sixfold, and implemented SEO configurations.",
+        techStack: "HTML/CSS, JavaScript."
+      },
+      imageLarge: casinoLarge,
+      imageSmall: casinoSmall,
+      liveUrl: "https://maksymchukhrai.github.io/CasinoExtra/",
+      githubUrl: "https://github.com/MaksymChukhrai/CasinoExtra"
+    }
   ];
 
-  // State to track which project descriptions are expanded
+  // State для отслеживания развернутых описаний проектов
   const [expandedProjects, setExpandedProjects] = useState({});
 
-  // Toggle the expanded state for a project
+  // Переключение состояния развернутого описания
   const toggleProjectDescription = (projectId) => {
     setExpandedProjects(prev => ({
       ...prev,
@@ -51,22 +117,23 @@ const Portfolio = () => {
     }));
   };
 
-  // Slider settings
+  // Настройки слайдера
   const settings = {
     dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows: false,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 2,
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         }
@@ -82,25 +149,36 @@ const Portfolio = () => {
         <div className="portfolio-slider">
           <Slider {...settings}>
             {projects.map(project => (
-              <div className="project-card" key={project.id}>
+              <div className="slide-container" key={project.id}>
+              <div className="project-card" >
                 <div 
                   className={`project-image ${expandedProjects[project.id] ? 'small' : 'large'}`}
                 >
                   <img 
-                    src={expandedProjects[project.id] ? 
-                      require(`../../assets/images/${project.imageSmall}`) : 
-                      require(`../../assets/images/${project.imageLarge}`)} 
+                    src={expandedProjects[project.id] ? project.imageSmall : project.imageLarge} 
                     alt={project.title} 
                   />
                 </div>
                 <div className="project-info">
-                  <h3>{project.title}</h3>
+                  <h3 className="project-title">{project.title}</h3>
                   <div 
                     className={`project-description ${expandedProjects[project.id] ? 'expanded' : ''}`}
                   >
-                    <p>
-                      {expandedProjects[project.id] ? project.fullDescription : project.description}
-                    </p>
+                    <p className="description-text">{project.description}</p>
+                    
+                    {expandedProjects[project.id] && (
+                      <>
+                        <div className="role-block">
+                          <p className="role-title"><strong>My Role:</strong></p>
+                          <p className="role-text">{project.fullDescription.role}</p>
+                        </div>
+                        <div className="tech-block">
+                          <p className="tech-title"><strong>Tech Stack:</strong></p>
+                          <p className="tech-text">{project.fullDescription.techStack}</p>
+                        </div>
+                      </>
+                    )}
+                    
                     <span 
                       className="toggle-description" 
                       onClick={() => toggleProjectDescription(project.id)}
@@ -119,14 +197,15 @@ const Portfolio = () => {
                     </a>
                     <a 
                       href={project.githubUrl} 
-                      className="project-btn code" 
+                      className="project-btn repo" 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
-                      Code
+                      Repository
                     </a>
                   </div>
                 </div>
+              </div>
               </div>
             ))}
           </Slider>

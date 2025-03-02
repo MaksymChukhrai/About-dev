@@ -5,7 +5,7 @@ import Hero from './components/Hero/Hero';
 import AboutMe from './components/AboutMe/AboutMe';
 import Skills from './components/Skills/Skills';
 import ChooseMe from './components/ChooseMe/ChooseMe';
-// import Portfolio from './components/Portfolio/Portfolio';
+import Portfolio from './components/Portfolio/Portfolio';
 import Testimonial from './components/Testimonial/Testimonial';
 import Footer from './components/Footer/Footer';
 
@@ -21,7 +21,7 @@ function App() {
         <Skills />
         </div>
         <ChooseMe />
-        {/* <Portfolio /> */}
+        <Portfolio />
         <Testimonial />
       </main>
       <Footer />
