@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/About-dev/static/css/main.e0a6e488.css",
+    "main.css": "/About-dev/static/css/main.59b2cb85.css",
     "main.js": "/About-dev/static/js/main.af7c36e4.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
@@ -36,11 +36,11 @@
     "static/media/Youtube.svg": "/About-dev/static/media/Youtube.021f7ca96a68a8056fad379f1b4c7cfd.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "index.html": "/About-dev/index.html",
-    "main.e0a6e488.css.map": "/About-dev/static/css/main.e0a6e488.css.map",
+    "main.59b2cb85.css.map": "/About-dev/static/css/main.59b2cb85.css.map",
     "main.af7c36e4.js.map": "/About-dev/static/js/main.af7c36e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0a6e488.css",
+    "static/css/main.59b2cb85.css",
     "static/js/main.af7c36e4.js"
   ]
 }
