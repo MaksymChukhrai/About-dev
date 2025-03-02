@@ -41,19 +41,31 @@
 }
 .contact-item>a>img{
     width: 40px;
+    transition: transform 0.4s ease, filter 0.4s ease; 
+}
+.contact-item>a:hover>img{
+    transform: scale(1.4); /* увеличение на 20% */
+    filter: brightness(0) saturate(100%) invert(56%) sepia(75%) 
+           saturate(1352%) hue-rotate(150deg) brightness(89%) contrast(101%);
 }
 .social-links{
     display:flex;
     flex-direction: row;
     gap:30px;
     justify-content: center;
+    li > a:hover > img {
+        transform: scale(1.4); /* увеличение на 20% */
+        filter: brightness(0) saturate(100%) invert(56%) sepia(75%) 
+               saturate(1352%) hue-rotate(150deg) brightness(89%) contrast(101%);
+    }
     li>a>img{
         width: 34px;
         height: 34px;
-        svg{
-            // fill: var(--secondary-text-color);
-            filter: brightness(0) invert(1);
-        }
+        transition: transform 0.4s ease, filter 0.4s ease; 
+
+    }
+    li>a>img:last-child{
+        border-radius: 5px;
     }
 }
 

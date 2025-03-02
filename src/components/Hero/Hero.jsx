@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.scss';
 import backgroundVideo from '../../assets/videos/Lines_1920x1080_30Fps.webm';
-import profilePhoto from '../../assets/images/me.png';
+import profilePhoto from '../../assets/images/me-mob.png';
 
 const Hero = () => {
   return (
