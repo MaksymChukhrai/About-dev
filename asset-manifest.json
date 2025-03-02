@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/About-dev/static/css/main.88f3225a.css",
-    "main.js": "/About-dev/static/js/main.1fb85c22.js",
+    "main.css": "/About-dev/static/css/main.e0a6e488.css",
+    "main.js": "/About-dev/static/js/main.af7c36e4.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
-    "static/media/me.png": "/About-dev/static/media/me.8fcd093da83e3d729097.png",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
     "static/media/client-photo.jpg": "/About-dev/static/media/client-photo.24a83cc90675cdf3849a.jpg",
@@ -14,6 +13,7 @@
     "static/media/skills-background.jpg": "/About-dev/static/media/skills-background.49e4a51e58b59bf65b60.jpg",
     "static/media/mob-menu-choose-background.jpg": "/About-dev/static/media/mob-menu-choose-background.60785e7db37e21114a10.jpg",
     "static/media/mob-menu-contact-background.jpg": "/About-dev/static/media/mob-menu-contact-background.a5df7634b0ddbce3c2b0.jpg",
+    "static/media/me-mob.png": "/About-dev/static/media/me-mob.27ca655ac1fd964e7c8f.png",
     "static/media/quality.png": "/About-dev/static/media/quality.9971c8b92160331e3fe2.png",
     "static/media/pug.svg": "/About-dev/static/media/pug.54692ed96bd4a09a9af10f2b2c2be025.svg",
     "static/media/collab.png": "/About-dev/static/media/collab.27bf6a8a8a528698c6d6.png",
@@ -27,7 +27,7 @@
     "static/media/mail.svg": "/About-dev/static/media/mail.05f8786feccdfed806c77dd7928ea23e.svg",
     "static/media/redux.svg": "/About-dev/static/media/redux.105ef404d781245281f6db395dcdd6eb.svg",
     "static/media/nodejs.svg": "/About-dev/static/media/nodejs.a68f7fa516b1070a505339cbf2898a61.svg",
-    "static/media/whatsapp.svg": "/About-dev/static/media/whatsapp.25c772296eb4beb793c101b38b0f8e69.svg",
+    "static/media/whatsapp.svg": "/About-dev/static/media/whatsapp.0edf0d7f52b8cc644103a825aee2eec9.svg",
     "static/media/phone.svg": "/About-dev/static/media/phone.43e29590c0a66a50986e5dd2a382603b.svg",
     "static/media/telegram.svg": "/About-dev/static/media/telegram.045485453dda89dd090a9d86a214a307.svg",
     "static/media/javascript.svg": "/About-dev/static/media/javascript.7d2d5a0b9945e32eade6ddb4afcf3778.svg",
@@ -36,11 +36,11 @@
     "static/media/Youtube.svg": "/About-dev/static/media/Youtube.021f7ca96a68a8056fad379f1b4c7cfd.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "index.html": "/About-dev/index.html",
-    "main.88f3225a.css.map": "/About-dev/static/css/main.88f3225a.css.map",
-    "main.1fb85c22.js.map": "/About-dev/static/js/main.1fb85c22.js.map"
+    "main.e0a6e488.css.map": "/About-dev/static/css/main.e0a6e488.css.map",
+    "main.af7c36e4.js.map": "/About-dev/static/js/main.af7c36e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.88f3225a.css",
-    "static/js/main.1fb85c22.js"
+    "static/css/main.e0a6e488.css",
+    "static/js/main.af7c36e4.js"
   ]
 }
