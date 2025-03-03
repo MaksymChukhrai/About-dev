@@ -5,18 +5,23 @@
     background-color: #f5f5f5;
   }
   
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+//   .container {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     padding: 0 15px;
+//   }
+  .portfolio-container{
+        .section-title {
+            margin-bottom: 30px;
+            color: var(--primary-text-color);
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 120%;
+            letter-spacing: 0.64px;
+            text-align: left;
+            padding-left: 14px;
   }
-  
-  .section-title {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 36px;
-    color: #333;
-  }
+}
   
   /* Стилизация слайдера */
   .portfolio-slider {
@@ -48,10 +53,12 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 10px;
-    height: 480px; /* Фиксированная высота для карточки */
+    height: 590px; /* Фиксированная высота для карточки */
+    width: 352px;
     display: flex;
     flex-direction: column;
     transition: all 0.3s ease;
+
   }
   
   /* Блок с изображением */
@@ -86,7 +93,7 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
   }
   
   .project-title {
@@ -103,34 +110,36 @@
     flex-direction: column;
   }
   
-  .description-text {
-    margin-bottom: 4px;
+  .description-text,
+  .role-block,
+  .tech-block{
+    margin-bottom: 10px;
     color:var( --primary-text-color);
-    text-align: center;
+    text-align: left;
     font-family: "Montserrat", sans-serif;
-font-size: 16px;
+font-size: 15px;
 font-weight: 500;
 line-height: 1.5; /* 24px */
 letter-spacing: 0.32px;
   }
   
   /* Блоки с ролью и технологиями */
-  .role-block, .tech-block {
-    margin-bottom: 10px;
-  }
+//   .role-block, .tech-block {
+//     margin-bottom: 10px;
+//   }
   
-  .role-title, .tech-title {
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #333;
-  }
+//   .role-title, .tech-title {
+//     margin-bottom: 5px;
+//     font-size: 14px;
+//     color: #333;
+//   }
   
-  .role-text, .tech-text {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #555;
-    margin-bottom: 10px;
-  }
+//   .role-text, .tech-text {
+//     font-size: 14px;
+//     line-height: 1.5;
+//     color: #555;
+//     margin-bottom: 10px;
+//   }
   
   /* Кнопка "See more/See less" */
   .toggle-description {
@@ -165,14 +174,27 @@ letter-spacing: 0.32px;
   }
   
   .project-btn.live {
-    background-color: #ff6b08;
-    color: white;
+    display: flex;
+        padding: 14px 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        border-radius: 2px;
+        background: var(--4, linear-gradient(110deg, #020D1F 3.16%, #0F264F 96.53%));
+        box-shadow: 2px 4px 10px 0px rgba(24, 39, 62, 0.40);
+        color:var(--secondary-text-color);
   }
   
   .project-btn.repo {
-    background-color: transparent;
-    color: #333;
-    border: 1px solid #ddd;
+    display: flex;
+        padding: 14px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        border: 2px solid var(--1, #2B64EB);
+        box-shadow: 5px 8px 20px 0px rgba(24, 39, 62, 0.40);
+        color:var(--primary-text-color);
   }
   
   .project-btn.live:hover {
