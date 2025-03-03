@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/About-dev/static/css/main.bc6bc737.css",
-    "main.js": "/About-dev/static/js/main.8bd2890e.js",
+    "main.css": "/About-dev/static/css/main.0f20c20c.css",
+    "main.js": "/About-dev/static/js/main.a4024f7f.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
     "static/media/mimino-mob-small.jpg": "/About-dev/static/media/mimino-mob-small.5f1d001fd269e23bd019.jpg",
-    "static/media/cinemania-mob-large.jpg": "/About-dev/static/media/cinemania-mob-large.8a23ef2aaf231c4083a4.jpg",
     "static/media/furniture-mob-large.jpg": "/About-dev/static/media/furniture-mob-large.455bfb0c091d6ee94e12.jpg",
     "static/media/mimino-mob-large.jpg": "/About-dev/static/media/mimino-mob-large.ffc1748c82394f86ea84.jpg",
     "static/media/casino-mob-large.jpg": "/About-dev/static/media/casino-mob-large.1bcba96a2e739305534f.jpg",
@@ -21,10 +20,11 @@
     "static/media/hh-mob-large.jpg": "/About-dev/static/media/hh-mob-large.b73e0cd060567751bbd1.jpg",
     "static/media/mob-menu-background.jpg": "/About-dev/static/media/mob-menu-background.d8926efb7cb149495c4f.jpg",
     "static/media/skills-background.jpg": "/About-dev/static/media/skills-background.49e4a51e58b59bf65b60.jpg",
-    "static/media/cinemania-mob-small.jpg": "/About-dev/static/media/cinemania-mob-small.eb7ab107872127b25ffb.jpg",
     "static/media/mob-menu-choose-background.jpg": "/About-dev/static/media/mob-menu-choose-background.60785e7db37e21114a10.jpg",
     "static/media/mob-menu-contact-background.jpg": "/About-dev/static/media/mob-menu-contact-background.a5df7634b0ddbce3c2b0.jpg",
+    "static/media/cinemania-mob-large.jpg": "/About-dev/static/media/cinemania-mob-large.eeee7a6014c7ed637898.jpg",
     "static/media/hh-mob-small.jpg": "/About-dev/static/media/hh-mob-small.27ef7274417b95815c2f.jpg",
+    "static/media/cinemania-mob-small.jpg": "/About-dev/static/media/cinemania-mob-small.904ff8e62e95a090b4dc.jpg",
     "static/media/me-mob.png": "/About-dev/static/media/me-mob.27ca655ac1fd964e7c8f.png",
     "static/media/quality.png": "/About-dev/static/media/quality.9971c8b92160331e3fe2.png",
     "static/media/pug.svg": "/About-dev/static/media/pug.54692ed96bd4a09a9af10f2b2c2be025.svg",
@@ -52,11 +52,11 @@
     "static/media/Youtube.svg": "/About-dev/static/media/Youtube.021f7ca96a68a8056fad379f1b4c7cfd.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "index.html": "/About-dev/index.html",
-    "main.bc6bc737.css.map": "/About-dev/static/css/main.bc6bc737.css.map",
-    "main.8bd2890e.js.map": "/About-dev/static/js/main.8bd2890e.js.map"
+    "main.0f20c20c.css.map": "/About-dev/static/css/main.0f20c20c.css.map",
+    "main.a4024f7f.js.map": "/About-dev/static/js/main.a4024f7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc6bc737.css",
-    "static/js/main.8bd2890e.js"
+    "static/css/main.0f20c20c.css",
+    "static/js/main.a4024f7f.js"
   ]
 }
