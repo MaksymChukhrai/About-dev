@@ -36,7 +36,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "MiMiHo",
+      title: "Mimino Hotel",
       description: "Mimino Hotel - A website for a hotel and restaurant featuring room booking and menu services.",
       fullDescription: {
         overview: "Mimino Hotel is a user-friendly platform for managing hotel reservations and restaurant services.",
@@ -123,19 +123,24 @@ const Portfolio = () => {
     infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     arrows: false,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 2,
         }
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding: '24px',
+          
+          // centerPadding: '12px',
         }
       }
     ]
@@ -143,7 +148,7 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio" id="portfolio">
-      <div className="container">
+      <div className="portfolio-container">
         <h2 className="section-title">My Portfolio</h2>
         
         <div className="portfolio-slider">
@@ -160,7 +165,7 @@ const Portfolio = () => {
                   />
                 </div>
                 <div className="project-info">
-                  <h3 className="project-title">{project.title}</h3>
+                  {/* <h3 className="project-title">{project.title}</h3> */}
                   <div 
                     className={`project-description ${expandedProjects[project.id] ? 'expanded' : ''}`}
                   >
@@ -169,12 +174,12 @@ const Portfolio = () => {
                     {expandedProjects[project.id] && (
                       <>
                         <div className="role-block">
-                          <p className="role-title"><strong>My Role:</strong></p>
-                          <p className="role-text">{project.fullDescription.role}</p>
+                          {/* <p className="role-title"><strong>My Role:</strong></p> */}
+                          <p className="role-text"><strong>My Role:&nbsp;</strong>{project.fullDescription.role}</p>
                         </div>
                         <div className="tech-block">
-                          <p className="tech-title"><strong>Tech Stack:</strong></p>
-                          <p className="tech-text">{project.fullDescription.techStack}</p>
+                          {/* <p className="tech-title"><strong>Tech Stack:</strong></p> */}
+                          <p className="tech-text"><strong>Tech Stack:&nbsp;</strong>{project.fullDescription.techStack}</p>
                         </div>
                       </>
                     )}

@@ -1,7 +1,7 @@
 /* Portfolio.css */
 
 .portfolio {
-    padding: 40px 16px;
+    padding: 40px 0;
     background-color: #f5f5f5;
   }
   
@@ -20,10 +20,10 @@
   
   /* Стилизация слайдера */
   .portfolio-slider {
-    margin: 0 10px;
+    margin: 0 5px;
   }
   .slide-container {
-    padding: 0 10px; /* Создаем отступы по бокам каждого слайда */
+    padding: 0 5px; /* Создаем отступы по бокам каждого слайда */
   }
   
   .slick-track {
@@ -31,7 +31,7 @@
     gap: 20px;
   }
   .slick-list {
-    margin: 0 -10px;
+    margin: 0 5px;
   }
   .slick-slide {
     height: inherit;
@@ -67,7 +67,7 @@
   }
   
   .project-image.small {
-    height: 140px; /* Уменьшенная высота при раскрытии */
+    height: 180px; /* Уменьшенная высота при раскрытии */
   }
   
   .project-image img {
@@ -104,10 +104,14 @@
   }
   
   .description-text {
-    margin-bottom: 10px;
-    line-height: 1.5;
-    font-size: 14px;
-    color: #555;
+    margin-bottom: 4px;
+    color:var( --primary-text-color);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 24px */
+letter-spacing: 0.32px;
   }
   
   /* Блоки с ролью и технологиями */
@@ -133,12 +137,12 @@
     font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
-    color: #ff6b08;
+    color:var(--primary-text-color);
     font-size: 14px;
     margin-top: auto;
     margin-bottom: 15px;
     display: inline-block;
-    align-self: flex-start;
+    text-align: center;
   }
   
   /* Блок с кнопками */
@@ -181,12 +185,19 @@
   
   /* Адаптивные стили */
   @media (max-width: 768px) {
+    .portfolio-container{
+        padding: 0;
+    }
     .project-card {
-      height: auto;
-      min-height: 420px;
+        width: 352px; /* Фиксированная ширина для мобильных */
+        margin: 0 auto; /* Центрирование карточки */
     }
     
-    .section-title {
-      font-size: 28px;
-    }
+    .portfolio-slider {
+        margin: 0;
+      }
+      
+      .slick-list {
+        margin: 0;
+      }
   }
