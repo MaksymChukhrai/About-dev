@@ -41,7 +41,7 @@
       &:last-child {
         font-size: 36px;
         color:var(--bolt-primary-text-color);
-        font-weight:700;
+        font-weight:800;
         line-height: 1.2;
         letter-spacing: 0.72px;
       }
@@ -78,9 +78,7 @@
       }
     }
     
-    @media (max-width: 768px) {
-      display: none;
-    }
+
   }
   
   .telegram-btn {

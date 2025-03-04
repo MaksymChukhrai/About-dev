@@ -117,29 +117,12 @@
     color:var( --primary-text-color);
     text-align: left;
     font-family: "Montserrat", sans-serif;
-font-size: 15px;
-font-weight: 500;
-line-height: 1.5; /* 24px */
-letter-spacing: 0.32px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5; /* 24px */
+    letter-spacing: 0.32px;
   }
   
-  /* Блоки с ролью и технологиями */
-//   .role-block, .tech-block {
-//     margin-bottom: 10px;
-//   }
-  
-//   .role-title, .tech-title {
-//     margin-bottom: 5px;
-//     font-size: 14px;
-//     color: #333;
-//   }
-  
-//   .role-text, .tech-text {
-//     font-size: 14px;
-//     line-height: 1.5;
-//     color: #555;
-//     margin-bottom: 10px;
-//   }
   
   /* Кнопка "See more/See less" */
   .toggle-description {

@@ -1,0 +1,26 @@
+  @media (min-width: 768px) {
+.hero{
+    max-width: 1200px!important;
+    margin:0;
+}
+.hero-content{
+    position:relative;
+    .hero-text{
+        position:absolute;
+        top:-390px;
+        left:350px;
+        background: none;
+    }
+    .profile-image img {
+        position: absolute;
+        top: -390px;
+        left: 0;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+  }
