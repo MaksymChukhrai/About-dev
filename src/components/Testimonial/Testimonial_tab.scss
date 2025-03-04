@@ -1,0 +1,20 @@
+@media screen and (min-width:768px){
+    .testimonial-container{
+        padding: 80px 40px;
+        .section-title{
+            font-size: 32px;
+            letter-spacing: 0.64px;
+            line-height: 1.2;
+            font-weight: 900;
+            margin-bottom: 60px;
+        }
+    }
+    .testimonial-card .testimonial-content {
+        font-size: 16px;
+    }
+
+    .client-image img{
+        height: 549px;
+    // width: 688px;
+    }
+}

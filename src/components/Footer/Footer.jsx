@@ -1,5 +1,4 @@
 import React from 'react';
-import './Footer.scss';
 
 // Импорт локальных SVG иконок
 import mailIcon from '../../assets/icons/mail.svg';

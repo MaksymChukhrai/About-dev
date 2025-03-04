@@ -1,5 +1,4 @@
 import React from 'react';
-import './Testimonial.scss';
 import testimonialImage from '../../assets/images/client-photo.webp';
 
 const Testimonial = () => {
