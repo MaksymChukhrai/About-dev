@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/About-dev/static/css/main.1a9b88cf.css",
-    "main.js": "/About-dev/static/js/main.7e146a83.js",
+    "main.css": "/About-dev/static/css/main.5570da3d.css",
+    "main.js": "/About-dev/static/js/main.ab8c9ecf.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
@@ -16,6 +16,7 @@
     "static/media/Lato-Regular.ttf": "/About-dev/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/casino-mob-small.jpg": "/About-dev/static/media/casino-mob-small.41f08ecc6b926f245549.jpg",
     "static/media/Lato-Bold.ttf": "/About-dev/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "static/media/tab-menu-choose-background.jpg": "/About-dev/static/media/tab-menu-choose-background.c3e1324ad20dd225bb28.jpg",
     "static/media/hh-mob-large.jpg": "/About-dev/static/media/hh-mob-large.b73e0cd060567751bbd1.jpg",
     "static/media/cinemania-mob-large.jpg": "/About-dev/static/media/cinemania-mob-large.eeee7a6014c7ed637898.jpg",
     "static/media/hh-mob-small.jpg": "/About-dev/static/media/hh-mob-small.27ef7274417b95815c2f.jpg",
@@ -50,14 +51,13 @@
     "static/media/javascript.svg": "/About-dev/static/media/javascript.7d2d5a0b9945e32eade6ddb4afcf3778.svg",
     "static/media/mongodb.svg": "/About-dev/static/media/mongodb.359a36d76b8151f2afd75a4720978441.svg",
     "static/media/html.svg": "/About-dev/static/media/html.b3218f6fc8a8923c436e8a051f59756c.svg",
-    "static/media/Youtube.svg": "/About-dev/static/media/Youtube.021f7ca96a68a8056fad379f1b4c7cfd.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "index.html": "/About-dev/index.html",
-    "main.1a9b88cf.css.map": "/About-dev/static/css/main.1a9b88cf.css.map",
-    "main.7e146a83.js.map": "/About-dev/static/js/main.7e146a83.js.map"
+    "main.5570da3d.css.map": "/About-dev/static/css/main.5570da3d.css.map",
+    "main.ab8c9ecf.js.map": "/About-dev/static/js/main.ab8c9ecf.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a9b88cf.css",
-    "static/js/main.7e146a83.js"
+    "static/css/main.5570da3d.css",
+    "static/js/main.ab8c9ecf.js"
   ]
 }
