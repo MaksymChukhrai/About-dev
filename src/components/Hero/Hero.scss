@@ -5,11 +5,33 @@
     margin-right: auto; 
     margin-left: auto;
     .video-background{
-        position: relative;
-  max-height: 582px;
+        width: 100%;
+        max-height: 582px;
         overflow: hidden;
 
     }
+}
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+  }
+
+.placeholder-image{
+    // position: absolute;
+    height: 582px;
+    width: 100%;
+   
+    background: url('../../assets/images/hero-placeholder.webp') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .profile-image img{
     position: absolute;
@@ -17,6 +39,12 @@
     left: 0;
     overflow: hidden;
 }
+
+.spinner {
+    width: 35px;
+    height: 35px;
+    z-index: 2;
+  }
 @media screen and (min-width: 350px){
     .profile-image img{
         top: 24%;
