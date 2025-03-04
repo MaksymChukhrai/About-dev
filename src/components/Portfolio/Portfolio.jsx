@@ -135,7 +135,7 @@ const Portfolio = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3.2,
+    slidesToShow: 3.5,
     slidesToScroll: 1.5,
     arrows: false,
     responsive: [
@@ -144,6 +144,7 @@ const Portfolio = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          variableWidth: true,
           centerPadding: "10px",
         },
       },
@@ -152,7 +153,8 @@ const Portfolio = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          centerPadding: "10px",
+        
+          centerPadding: "20px",
         },
       },
       {
@@ -160,7 +162,7 @@ const Portfolio = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          variableWidth: true,
+    
           centerPadding: "20px",
         },
       },

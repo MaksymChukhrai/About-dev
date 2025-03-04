@@ -24,23 +24,24 @@
 }
   
   /* Стилизация слайдера */
-  .portfolio-slider {
-    margin: 0 5px;
-  }
+  // .portfolio-slider {
+  //   margin: 0 5px;
+  // }
   .slide-container {
     padding: 0 5px; /* Создаем отступы по бокам каждого слайда */
   }
   
-  .slick-track {
-    display: flex;
-    gap: 20px;
-  }
+  // .slick-track {
+  //   display: flex;
+  //   gap: 10px;
+  // }
   .slick-list {
-    margin: 0 5px;
+    margin: 0 -5px;
   }
-  .slick-slide {
-    height: inherit;
-  }
+  // .slick-slide {
+  //   margin: 0 5px; // Создаст gap между слайдами
+  //   width: calc(100% - 10px); // Учтет отступы
+  // }
   
   .slick-slide > div {
     height: 100%;
