@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import backgroundVideo from '../../assets/videos/Lines_1920x1080_30Fps.webm';
 import profilePhoto from '../../assets/images/me-mob.webp';
-import spinner from '../../assets/images/loading.gif'; // Спиннер
+// import spinner from '../../assets/images/loading.gif'; 
 
 const Hero = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="video-background">
         {!isVideoLoaded && (
           <div className="placeholder-image">
-            <img src={spinner} alt="Loading..." className="spinner" />
+            {/* <img src={spinner} alt="Loading..." className="spinner" /> */}
           </div>
         )}
         <video 
