@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/About-dev/static/css/main.2274d21d.css",
-    "main.js": "/About-dev/static/js/main.2cf7b8b3.js",
+    "main.css": "/About-dev/static/css/main.1a9b88cf.css",
+    "main.js": "/About-dev/static/js/main.c86cb228.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
@@ -11,14 +11,12 @@
     "static/media/casino-mob-large.jpg": "/About-dev/static/media/casino-mob-large.1bcba96a2e739305534f.jpg",
     "static/media/advocate-mob-large.jpg": "/About-dev/static/media/advocate-mob-large.5e26c7e64d9ef5631a2e.jpg",
     "static/media/furniture-mob-small.jpg": "/About-dev/static/media/furniture-mob-small.0e29c8faa321e0311397.jpg",
-    "static/media/client-photo.jpg": "/About-dev/static/media/client-photo.24a83cc90675cdf3849a.jpg",
     "static/media/Lato-Italic.ttf": "/About-dev/static/media/Lato-Italic.a9f3ee269217f44df65f.ttf",
     "static/media/advocate-mob-small.jpg": "/About-dev/static/media/advocate-mob-small.1d631fa66bcfdb8dabd1.jpg",
     "static/media/Lato-Regular.ttf": "/About-dev/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/casino-mob-small.jpg": "/About-dev/static/media/casino-mob-small.41f08ecc6b926f245549.jpg",
     "static/media/Lato-Bold.ttf": "/About-dev/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
     "static/media/hh-mob-large.jpg": "/About-dev/static/media/hh-mob-large.b73e0cd060567751bbd1.jpg",
-    "static/media/mob-menu-choose-background.jpg": "/About-dev/static/media/mob-menu-choose-background.60785e7db37e21114a10.jpg",
     "static/media/cinemania-mob-large.jpg": "/About-dev/static/media/cinemania-mob-large.eeee7a6014c7ed637898.jpg",
     "static/media/hh-mob-small.jpg": "/About-dev/static/media/hh-mob-small.27ef7274417b95815c2f.jpg",
     "static/media/cinemania-mob-small.jpg": "/About-dev/static/media/cinemania-mob-small.904ff8e62e95a090b4dc.jpg",
@@ -31,7 +29,9 @@
     "static/media/mob-menu-contact-background.webp": "/About-dev/static/media/mob-menu-contact-background.95a793f9850e81c8b871.webp",
     "static/media/postman.svg": "/About-dev/static/media/postman.075308f810e058f7c56e5fe3b2609510.svg",
     "static/media/me-mob.webp": "/About-dev/static/media/me-mob.8a1eaf67b98b566a8cd0.webp",
+    "static/media/client-photo.webp": "/About-dev/static/media/client-photo.1d40a8e77f049e4de845.webp",
     "static/media/sass.svg": "/About-dev/static/media/sass.d639f2a840039f78411c10c782674fdd.svg",
+    "static/media/mob-menu-choose-background.webp": "/About-dev/static/media/mob-menu-choose-background.a030b08232fbea930c9e.webp",
     "static/media/express.svg": "/About-dev/static/media/express.32c654c44e513bc0fadfc2fab7f58490.svg",
     "static/media/react.svg": "/About-dev/static/media/react.b4aadc0713bb11142756748e605f70bd.svg",
     "static/media/Github.svg": "/About-dev/static/media/Github.603a6d3322ff5be9800c1e711b92d049.svg",
@@ -53,11 +53,11 @@
     "static/media/Youtube.svg": "/About-dev/static/media/Youtube.021f7ca96a68a8056fad379f1b4c7cfd.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "index.html": "/About-dev/index.html",
-    "main.2274d21d.css.map": "/About-dev/static/css/main.2274d21d.css.map",
-    "main.2cf7b8b3.js.map": "/About-dev/static/js/main.2cf7b8b3.js.map"
+    "main.1a9b88cf.css.map": "/About-dev/static/css/main.1a9b88cf.css.map",
+    "main.c86cb228.js.map": "/About-dev/static/js/main.c86cb228.js.map"
   },
   "entrypoints": [
-    "static/css/main.2274d21d.css",
-    "static/js/main.2cf7b8b3.js"
+    "static/css/main.1a9b88cf.css",
+    "static/js/main.c86cb228.js"
   ]
 }
