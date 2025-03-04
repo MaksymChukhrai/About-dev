@@ -144,17 +144,24 @@ const Portfolio = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          centerPadding: "20px",
+          centerPadding: "10px",
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 768, // Планшеты
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          centerPadding: "10px",
+        },
+      },
+      {
+        breakpoint: 450, // Мобильные устройства
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          variableWidth: true,
           centerPadding: "20px",
-
-          // centerPadding: '12px',
         },
       },
     ],

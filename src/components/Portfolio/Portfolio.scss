@@ -188,21 +188,5 @@
     background-color: #f5f5f5;
   }
   
-  /* Адаптивные стили */
-  @media (max-width: 768px) {
-    .portfolio-container{
-        padding: 0;
-    }
-    .project-card {
-        width: 352px; /* Фиксированная ширина для мобильных */
-        margin: 0 auto; /* Центрирование карточки */
-    }
-    
-    .portfolio-slider {
-        margin: 0;
-      }
-      
-      .slick-list {
-        margin: 0;
-      }
-  }
+
+

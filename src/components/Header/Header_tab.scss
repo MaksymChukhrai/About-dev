@@ -1,6 +1,9 @@
-@media (max-width: 768px) {
-    .nav-menu { 
+@media (max-width: 780px) {
+    .nav-menu  { 
         display: none;
+    }
+    .telegram-btn {
+      display: none;
     }
   }
 //   @media (min-width: 768px) {

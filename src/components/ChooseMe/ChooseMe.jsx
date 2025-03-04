@@ -1,5 +1,5 @@
 import React from 'react';
-import './ChooseMe.scss';
+
 
 // Import custom icons
 import profIcon from '../../assets/icons/prof.png';
@@ -37,19 +37,37 @@ const ChooseMe = () => {
         <h2 className="section-title">Why Choose Me</h2>
         
         <div className="reasons-grid">
-          {reasons.map((reason, index) => (
-            <div className="reason-card" key={index}>
-              <div className="reason-icon">
-                <img src={reason.icon} alt={reason.title} />
-              </div>
-              <h3>{reason.title}</h3>
-              <p>{reason.description}</p>
-            </div>
-          ))}
+          {reasons.reduce((acc, reason, index) => {
+            if (index % 2 === 0) {
+              acc.push(
+                <div className="reason-card-wrapper" key={`wrapper-${index/2}`}>
+                  <div className="reason-card">
+                    <div className="reason-icon">
+                      <img src={reason.icon} alt={reason.title} />
+                    </div>
+                    <h3>{reason.title}</h3>
+                    <p>{reason.description}</p>
+                  </div>
+                  {reasons[index + 1] && (
+                    <div className="reason-card">
+                      <div className="reason-icon">
+                        <img src={reasons[index + 1].icon} alt={reasons[index + 1].title} />
+                      </div>
+                      <h3>{reasons[index + 1].title}</h3>
+                      <p>{reasons[index + 1].description}</p>
+                    </div>
+                  )}
+                </div>
+              );
+            }
+            return acc;
+          }, [])}
         </div>
       </div>
     </section>
   );
+
+
 };
 
 export default ChooseMe;

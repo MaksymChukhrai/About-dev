@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useLayoutEffect } from 'react';
 import linkedinIcon from '../../assets/icons/LinkedIn.svg';
 import telegramIcon from '../../assets/icons/telegram.svg';
-import youtubeIcon from '../../assets/icons/Youtube.svg';
+import whatsappIcon from '../../assets/icons/whatsapp.svg';
 import githubIcon from '../../assets/icons/Github.svg';
 
 const BurgerMenu = ({ navLinks }) => {
@@ -85,8 +85,14 @@ const BurgerMenu = ({ navLinks }) => {
           </nav>
 
           <div className="burger-menu-footer">
-            <button className="contact-button" onClick={() => setIsOpen(false)}>
-              Contact me
+            <button className="contact-button" >
+            <a 
+                href="https://t.me/Akdeniz_2020" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Contact Me
+              </a>
             </button>
             
             <div className="social-icons">
@@ -96,8 +102,8 @@ const BurgerMenu = ({ navLinks }) => {
               <a href="https://t.me/Akdeniz_2020" className="social-icon">
                 <img src={telegramIcon} alt="Telegram" />
               </a>
-              <a href="https://github.com/MaksymChukhrai" className="social-icon">
-                <img src={youtubeIcon} alt="YouTube" />
+              <a href="https://wa.me/380952720027" className="social-icon">
+                <img src={whatsappIcon} alt="WhatsApp" />
               </a>
               <a href="https://github.com/MaksymChukhrai" className="social-icon">
                 <img src={githubIcon} alt="GitHub" />

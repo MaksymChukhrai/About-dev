@@ -1,12 +1,12 @@
 .hero{
     position: relative;
     margin-top: 87px;
-    max-width: 450px;
+    // max-width: 450px;
     margin-right: auto; 
     margin-left: auto;
     .video-background{
         width: 100%;
-        max-height: 582px;
+        height: 582px;
         overflow: hidden;
 
     }
@@ -24,8 +24,7 @@
   }
 
 .placeholder-image{
-    // position: absolute;
-    height: 582px;
+     height: 582px;
     width: 100%;
    
     background: url('../../assets/images/hero-placeholder.webp') center/cover no-repeat;

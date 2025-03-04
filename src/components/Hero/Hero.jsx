@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import backgroundVideo from '../../assets/videos/Lines_1920x1080_30Fps.webm';
 import profilePhoto from '../../assets/images/me-mob.webp';
 // import spinner from '../../assets/images/loading.gif'; 
@@ -34,7 +35,7 @@ const Hero = () => {
             <h2>Full Stack Developer</h2>
             <button type="button" className="contact-btn">
               <a 
-                href="https://wa.me/yourphonenumber" 
+                href="https://t.me/Akdeniz_2020" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >

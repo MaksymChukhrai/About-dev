@@ -71,7 +71,7 @@ const Skills = () => {
         
         <div className="skill-category">
           <h3>Backend</h3>
-          <div className="skills-grid">
+          <div className="skills-grid backend">
             {renderSkillPairs(backendSkills)}
           </div>
         </div>
