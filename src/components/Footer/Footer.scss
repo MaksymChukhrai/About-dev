@@ -54,7 +54,7 @@
     gap:30px;
     justify-content: center;
     li > a:hover > img {
-        transform: scale(1.4); /* увеличение на 20% */
+        transform: scale(1.2); /* увеличение на 20% */
         filter: brightness(0) saturate(100%) invert(56%) sepia(75%) 
                saturate(1352%) hue-rotate(150deg) brightness(89%) contrast(101%);
     }

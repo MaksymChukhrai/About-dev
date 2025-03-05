@@ -56,10 +56,10 @@ const Portfolio = () => {
       id: 3,
       title: "Furniture re-stretching project",
       description:
-        "Pet adoption platform for helping meet owners and pets needs.",
+        "This app showcases services, projects, and allows customers to contact the business.",
       fullDescription: {
         overview:
-          "This app showcases services, projects, and allows customers to contact the business.",
+          "This app promotes the company's services, receives conversions from social media, allows you to contact the company and/or accept order details.",
         role: "Full Stack Developer. I conceptualized the app, created the design, wrote SEO-friendly markup, implemented JavaScript and PHP, and deployed the site.",
         techStack: "JavaScript, PHP, HTML/CSS",
       },
