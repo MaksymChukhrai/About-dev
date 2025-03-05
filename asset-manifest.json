@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/About-dev/static/css/main.95642af2.css",
-    "main.js": "/About-dev/static/js/main.82a6c4ac.js",
+    "main.css": "/About-dev/static/css/main.47c3d901.css",
+    "main.js": "/About-dev/static/js/main.75b3585a.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
@@ -16,21 +16,26 @@
     "static/media/Lato-Regular.ttf": "/About-dev/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/casino-mob-small.jpg": "/About-dev/static/media/casino-mob-small.41f08ecc6b926f245549.jpg",
     "static/media/Lato-Bold.ttf": "/About-dev/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
-    "static/media/tab-menu-choose-background.jpg": "/About-dev/static/media/tab-menu-choose-background.c3e1324ad20dd225bb28.jpg",
+    "static/media/placeholder-image.webp": "/About-dev/static/media/placeholder-image.31f6f2862d24fef490dc.webp",
     "static/media/hh-mob-large.jpg": "/About-dev/static/media/hh-mob-large.b73e0cd060567751bbd1.jpg",
     "static/media/cinemania-mob-large.jpg": "/About-dev/static/media/cinemania-mob-large.eeee7a6014c7ed637898.jpg",
     "static/media/hh-mob-small.jpg": "/About-dev/static/media/hh-mob-small.27ef7274417b95815c2f.jpg",
+    "static/media/me_872x689.webp": "/About-dev/static/media/me_872x689.49d330d7de7ff8144f4c.webp",
     "static/media/cinemania-mob-small.jpg": "/About-dev/static/media/cinemania-mob-small.904ff8e62e95a090b4dc.jpg",
+    "static/media/client-tab.webp": "/About-dev/static/media/client-tab.5b7aa8ccf6c719fb1301.webp",
+    "static/media/pc-menu-choose-background.webp": "/About-dev/static/media/pc-menu-choose-background.26163b3d967b3f939029.webp",
+    "static/media/footer_tab.webp": "/About-dev/static/media/footer_tab.9bc6bd50dbaf97e29cbb.webp",
     "static/media/quality.png": "/About-dev/static/media/quality.9971c8b92160331e3fe2.png",
     "static/media/pug.svg": "/About-dev/static/media/pug.54692ed96bd4a09a9af10f2b2c2be025.svg",
     "static/media/collab.png": "/About-dev/static/media/collab.27bf6a8a8a528698c6d6.png",
+    "static/media/tab-menu-choose-background.webp": "/About-dev/static/media/tab-menu-choose-background.8de668e20ca06d3fad1d.webp",
     "static/media/hero-placeholder.webp": "/About-dev/static/media/hero-placeholder.56ed08114d6004c518b2.webp",
     "static/media/mob-menu-background.webp": "/About-dev/static/media/mob-menu-background.56ed08114d6004c518b2.webp",
     "static/media/skills-background.webp": "/About-dev/static/media/skills-background.8d7cef1ba71086e20050.webp",
-    "static/media/mob-menu-contact-background.webp": "/About-dev/static/media/mob-menu-contact-background.95a793f9850e81c8b871.webp",
+    "static/media/footer_mob.webp": "/About-dev/static/media/footer_mob.95a793f9850e81c8b871.webp",
     "static/media/postman.svg": "/About-dev/static/media/postman.075308f810e058f7c56e5fe3b2609510.svg",
     "static/media/me-mob.webp": "/About-dev/static/media/me-mob.8a1eaf67b98b566a8cd0.webp",
-    "static/media/client-photo.webp": "/About-dev/static/media/client-photo.1d40a8e77f049e4de845.webp",
+    "static/media/client-mob.webp": "/About-dev/static/media/client-mob.1d40a8e77f049e4de845.webp",
     "static/media/sass.svg": "/About-dev/static/media/sass.d639f2a840039f78411c10c782674fdd.svg",
     "static/media/mob-menu-choose-background.webp": "/About-dev/static/media/mob-menu-choose-background.a030b08232fbea930c9e.webp",
     "static/media/express.svg": "/About-dev/static/media/express.32c654c44e513bc0fadfc2fab7f58490.svg",
@@ -53,11 +58,11 @@
     "static/media/html.svg": "/About-dev/static/media/html.b3218f6fc8a8923c436e8a051f59756c.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "index.html": "/About-dev/index.html",
-    "main.95642af2.css.map": "/About-dev/static/css/main.95642af2.css.map",
-    "main.82a6c4ac.js.map": "/About-dev/static/js/main.82a6c4ac.js.map"
+    "main.47c3d901.css.map": "/About-dev/static/css/main.47c3d901.css.map",
+    "main.75b3585a.js.map": "/About-dev/static/js/main.75b3585a.js.map"
   },
   "entrypoints": [
-    "static/css/main.95642af2.css",
-    "static/js/main.82a6c4ac.js"
+    "static/css/main.47c3d901.css",
+    "static/js/main.75b3585a.js"
   ]
 }
