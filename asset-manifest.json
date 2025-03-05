@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/About-dev/static/css/main.adf93eae.css",
+    "main.css": "/About-dev/static/css/main.a0b02040.css",
     "main.js": "/About-dev/static/js/main.ca373845.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
@@ -30,7 +30,6 @@
     "static/media/pug.svg": "/About-dev/static/media/pug.54692ed96bd4a09a9af10f2b2c2be025.svg",
     "static/media/collab.png": "/About-dev/static/media/collab.27bf6a8a8a528698c6d6.png",
     "static/media/tab-menu-choose-background.webp": "/About-dev/static/media/tab-menu-choose-background.8de668e20ca06d3fad1d.webp",
-    "static/media/hero-placeholder.webp": "/About-dev/static/media/hero-placeholder.56ed08114d6004c518b2.webp",
     "static/media/mob-menu-background.webp": "/About-dev/static/media/mob-menu-background.56ed08114d6004c518b2.webp",
     "static/media/skills-background.webp": "/About-dev/static/media/skills-background.8d7cef1ba71086e20050.webp",
     "static/media/footer_mob.webp": "/About-dev/static/media/footer_mob.95a793f9850e81c8b871.webp",
@@ -40,6 +39,7 @@
     "static/media/sass.svg": "/About-dev/static/media/sass.d639f2a840039f78411c10c782674fdd.svg",
     "static/media/mob-menu-choose-background.webp": "/About-dev/static/media/mob-menu-choose-background.a030b08232fbea930c9e.webp",
     "static/media/express.svg": "/About-dev/static/media/express.32c654c44e513bc0fadfc2fab7f58490.svg",
+    "static/media/hero-placeholder-v2.webp": "/About-dev/static/media/hero-placeholder-v2.7f904b3608cdbaaad512.webp",
     "static/media/react.svg": "/About-dev/static/media/react.b4aadc0713bb11142756748e605f70bd.svg",
     "static/media/Github.svg": "/About-dev/static/media/Github.603a6d3322ff5be9800c1e711b92d049.svg",
     "static/media/nextjs.svg": "/About-dev/static/media/nextjs.4cad823ca560c6a7afb18d6d43626afb.svg",
@@ -59,11 +59,11 @@
     "static/media/html.svg": "/About-dev/static/media/html.b3218f6fc8a8923c436e8a051f59756c.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "index.html": "/About-dev/index.html",
-    "main.adf93eae.css.map": "/About-dev/static/css/main.adf93eae.css.map",
+    "main.a0b02040.css.map": "/About-dev/static/css/main.a0b02040.css.map",
     "main.ca373845.js.map": "/About-dev/static/js/main.ca373845.js.map"
   },
   "entrypoints": [
-    "static/css/main.adf93eae.css",
+    "static/css/main.a0b02040.css",
     "static/js/main.ca373845.js"
   ]
 }
