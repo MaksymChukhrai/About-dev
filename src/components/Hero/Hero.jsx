@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-
 import backgroundVideo from '../../assets/videos/Lines_1920x1080_30Fps.webm';
-import profilePhoto from '../../assets/images/me-mob.webp';
-// import spinner from '../../assets/images/loading.gif'; 
+
 
 const Hero = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
@@ -12,8 +10,7 @@ const Hero = () => {
       <div className="video-background">
         {!isVideoLoaded && (
           <div className="placeholder-image">
-            {/* <img src={spinner} alt="Loading..." className="spinner" /> */}
-          </div>
+             </div>
         )}
         <video 
           autoPlay 
@@ -27,9 +24,7 @@ const Hero = () => {
       </div>
       <div className="hero-container">
         <div className="hero-content">
-          <div className="profile-image">
-            <img src={profilePhoto} alt="Maksym Chukhrai" loading="lazy" />
-          </div>
+          <div className="profile-image"></div>
           <div className="hero-text">
             <h1>I'm <span>Maksym Chukhrai</span></h1>
             <h2>Full Stack Developer</h2>

@@ -1,5 +1,5 @@
 import React from 'react';
-import testimonialImage from '../../assets/images/client-photo.webp';
+
 
 const Testimonial = () => {
   return (
@@ -18,9 +18,7 @@ const Testimonial = () => {
               <p>CEO, Law Company Tarasenko and Partners</p>
             </div>
           </div>
-          <div className="client-image">
-            <img src={testimonialImage} alt="Client" />
-          </div>
+          <div className="client-image"></div>
         </div>
       </div>
     </section>

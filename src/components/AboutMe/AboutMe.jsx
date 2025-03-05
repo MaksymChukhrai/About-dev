@@ -15,9 +15,7 @@ const AboutMe = () => {
           <div className="mission">
             <h3>My Mission</h3>
             <p className="about-text">
-              My goal is to create efficient, user-friendly applications that solve
-              real-world problems. I'm passionate about clean code, performance
-              optimization, and creating intuitive interfaces that enhance user experience.
+            My goal is not just to write code, but to build effective solutions that meet the unique needs of each project. I strive to ensure that my work not only meets technical requirements but also brings users joy and enhances business processes.
             </p>
           </div>
         </div>

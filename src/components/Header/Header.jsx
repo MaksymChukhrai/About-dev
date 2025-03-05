@@ -50,14 +50,14 @@ const Header = () => {
             <li onClick={() => scrollToSection('contact')}>Contact</li>
           </ul>
         </nav>
-        <a 
+        {/* <a 
           href="https://t.me/your_telegram_username" 
           className="telegram-btn" 
           target="_blank" 
           rel="noopener noreferrer"
         >
           Telegram
-        </a>
+        </a> */}
         <BurgerMenu navLinks={navLinks} />
       </div>
     </header>

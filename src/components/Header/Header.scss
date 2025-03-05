@@ -68,8 +68,8 @@
           height: 2px;
           bottom: -5px;
           left: 0;
-          background-color: #fff;
-          transition: width 0.3s ease;
+          background-color: var(--primary-text-color);
+          transition: width var(--transition-speed);
         }
         
         &:hover:after {
