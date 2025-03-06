@@ -254,27 +254,34 @@ const Portfolio = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3.8,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    variableWidth: true,
     centerPadding: "10px",
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          variableWidth: false,
+        },
+      },
+      {
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          variableWidth: true,
-          centerPadding: "10px",
+          slidesToScroll: 1,
+          variableWidth: false,
         },
       },
       {
         breakpoint: 768, // Планшеты
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-        
-          centerPadding: "20px",
+          slidesToScroll: 1,
+          variableWidth: false,
         },
       },
       {
@@ -282,8 +289,7 @@ const Portfolio = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-    
-          centerPadding: "20px",
+          variableWidth: false,
         },
       },
     ],
