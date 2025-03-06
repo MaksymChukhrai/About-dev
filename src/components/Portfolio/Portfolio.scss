@@ -24,9 +24,9 @@
 }
   
   /* Стилизация слайдера */
-  // .portfolio-slider {
-  //   margin: 0 5px;
-  // }
+  .portfolio-slider {
+    margin: 0 -10px;
+  }
   .slide-container {
     padding: 0 5px; /* Создаем отступы по бокам каждого слайда */
   }
@@ -38,10 +38,16 @@
   .slick-list {
     margin: 0 -5px;
   }
-  // .slick-slide {
-  //   margin: 0 5px; // Создаст gap между слайдами
-  //   width: calc(100% - 10px); // Учтет отступы
-  // }
+  .slick-slide > div {
+    height: 100%;
+    
+    .project-card {
+      margin: 10px auto; // Центрирование карточки и добавление вертикального отступа
+      width: 100%; // Карточка занимает 100% ширины контейнера слайда
+      max-width: 352px; // Ограничение максимальной ширины
+    }
+  }
+
   
   .slick-slide > div {
     height: 100%;

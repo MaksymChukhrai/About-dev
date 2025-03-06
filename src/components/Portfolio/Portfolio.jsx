@@ -258,13 +258,14 @@ const Portfolio = () => {
     slidesToScroll: 1,
     arrows: false,
     variableWidth: true,
-    centerPadding: "10px",
+    centerPadding: "20px",
     responsive: [
       {
         breakpoint: 1440,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
+          centerPadding: "20px",
           variableWidth: false,
         },
       },
@@ -273,6 +274,7 @@ const Portfolio = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
+          centerPadding: "20px",
           variableWidth: false,
         },
       },
