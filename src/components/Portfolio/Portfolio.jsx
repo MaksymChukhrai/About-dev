@@ -24,6 +24,9 @@ import autoserviceSmall from "../../assets/images/projects/autoservice/autoserv-
 import autoserviceLarge from "../../assets/images/projects/autoservice/autoserv-lg.webp";
 
 
+import coffeeLarge from "../../assets/images/projects/coffee/coffee-lg.webp";
+import coffeeSmall from "../../assets/images/projects/coffee/coffee-sm.webp";
+
 const Portfolio = () => {
   // Данные проектов согласно макету
   const projects = [
@@ -156,8 +159,38 @@ const Portfolio = () => {
       liveUrl: "https://maksymchukhrai.github.io/Autoservice-Austria",
       githubUrl: "https://github.com/MaksymChukhrai/Autoservice-Austria",
     },
-
-
+    {
+      id: 9,
+      title: "Simply Coffee",
+      description:
+        "Online coffee shop.",
+      fullDescription: {
+        overview:
+          "Simply Coffee offers fresh-roasted beans, diverse blends, and swift delivery, ensuring a delightful coffee experience.",
+        role: "Frontend Developer. Released everything myself: idea, design, programming, and layout",
+        techStack: "JavaScript, Vite, HTML/CSS.",
+      },
+      imageLarge: coffeeLarge,
+      imageSmall: coffeeSmall,
+      liveUrl: "https://maksymchukhrai.github.io/coffee-project",
+      githubUrl: "https://github.com/MaksymChukhrai/coffee-project",
+    },
+    {
+      id: 10,
+      title: "My calendar app",
+      description:
+        "Online coffee shop.",
+      fullDescription: {
+        overview:
+          "Simply Coffee offers fresh-roasted beans, diverse blends, and swift delivery, ensuring a delightful coffee experience.",
+        role: "Frontend Developer. Released everything myself: idea, design, programming, and layout",
+        techStack: "React, TypeScript, Vite, Vitest.",
+      },
+      imageLarge: coffeeLarge,
+      imageSmall: coffeeSmall,
+      liveUrl: "https://maksymchukhrai.github.io/my-calendar-app/",
+      githubUrl: "hhttps://github.com/MaksymChukhrai/my-calendar-app",
+    },
 
 
   ];
