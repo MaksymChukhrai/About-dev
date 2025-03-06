@@ -4,18 +4,23 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // Импорт изображений
-import miminoLarge from "../../assets/images/projects/mimino/mimino-mob-large.jpg";
-import miminoSmall from "../../assets/images/projects/mimino/mimino-mob-small.jpg";
-import heathyhubLarge from "../../assets/images/projects/healthy_hub/hh-mob-large.jpg";
-import heathyhubSmall from "../../assets/images/projects/healthy_hub/hh-mob-small.jpg";
-import furnitureLarge from "../../assets/images/projects/furniture/furniture-mob-large.jpg";
-import furnitureSmall from "../../assets/images/projects/furniture/furniture-mob-small.jpg";
-import cinemaniaLarge from "../../assets/images/projects/cinemania/cinemania-mob-large.jpg";
-import cinemaniaSmall from "../../assets/images/projects/cinemania/cinemania-mob-small.jpg";
-import advocateLarge from "../../assets/images/projects/advocate/advocate-mob-large.jpg";
-import advocateSmall from "../../assets/images/projects/advocate/advocate-mob-small.jpg";
-import casinoLarge from "../../assets/images/projects/casino/casino-mob-large.jpg";
-import casinoSmall from "../../assets/images/projects/casino/casino-mob-small.jpg";
+import miminoLarge from "../../assets/images/projects/mimino/mimino-mob-large.webp";
+import miminoSmall from "../../assets/images/projects/mimino/mimino-mob-small.webp";
+
+import heathyhubLarge from "../../assets/images/projects/healthy_hub/hh-mob-large.webp";
+import heathyhubSmall from "../../assets/images/projects/healthy_hub/hh-mob-small.webp";
+
+import furnitureLarge from "../../assets/images/projects/furniture/furniture-mob-large.webp";
+import furnitureSmall from "../../assets/images/projects/furniture/furniture-mob-small.webp";
+
+import cinemaniaLarge from "../../assets/images/projects/cinemania/cinemania-mob-large.webp";
+import cinemaniaSmall from "../../assets/images/projects/cinemania/cinemania-mob-small.webp";
+
+import advocateLarge from "../../assets/images/projects/advocate/advocate-mob-large.webp";
+import advocateSmall from "../../assets/images/projects/advocate/advocate-mob-small.webp";
+
+import casinoLarge from "../../assets/images/projects/casino/casino-mob-large.webp";
+import casinoSmall from "../../assets/images/projects/casino/casino-mob-small.webp";
 
 import radioLarge from "../../assets/images/projects/MyRadio/radio-lg.webp";
 import radioSmall from "../../assets/images/projects/MyRadio/radio-sm.webp";
@@ -26,6 +31,15 @@ import autoserviceLarge from "../../assets/images/projects/autoservice/autoserv-
 
 import coffeeLarge from "../../assets/images/projects/coffee/coffee-lg.webp";
 import coffeeSmall from "../../assets/images/projects/coffee/coffee-sm.webp";
+
+import calendarLarge from "../../assets/images/projects/calendar/calendar-lg.webp";
+import calendarSmall from "../../assets/images/projects/calendar/calendar-sm.webp";
+
+import dashboardLarge from "../../assets/images/projects/dashboard/dashboard-lg.webp";
+import dashboardSmall from "../../assets/images/projects/dashboard/dashboard-sm.webp";
+
+import imageSearchLarge from "../../assets/images/projects/image-search/image-search-lg.webp";
+import imageSearchSmall from "../../assets/images/projects/image-search/image-search-sm.webp";
 
 const Portfolio = () => {
   // Данные проектов согласно макету
@@ -163,10 +177,10 @@ const Portfolio = () => {
       id: 9,
       title: "Simply Coffee",
       description:
-        "Online coffee shop.",
+        "Simply Coffee. Enjoy exceptional blends for every mood and moment, bringing rich flavors to your day.",
       fullDescription: {
         overview:
-          "Simply Coffee offers fresh-roasted beans, diverse blends, and swift delivery, ensuring a delightful coffee experience.",
+          "Online shop offers fresh-roasted beans, diverse blends, and swift delivery, ensuring a delightful coffee experience.",
         role: "Frontend Developer. Released everything myself: idea, design, programming, and layout",
         techStack: "JavaScript, Vite, HTML/CSS.",
       },
@@ -178,18 +192,47 @@ const Portfolio = () => {
     {
       id: 10,
       title: "My calendar app",
-      description:
-        "Online coffee shop.",
+      description: "Interactive calendar for efficient event management and scheduling.",
       fullDescription: {
         overview:
-          "Simply Coffee offers fresh-roasted beans, diverse blends, and swift delivery, ensuring a delightful coffee experience.",
-        role: "Frontend Developer. Released everything myself: idea, design, programming, and layout",
+          "A user-friendly calendar application enabling seamless event creation, editing, and organization.",
+        role:  "Frontend Developer. Idea, design, programming, and layout.",
         techStack: "React, TypeScript, Vite, Vitest.",
       },
-      imageLarge: coffeeLarge,
-      imageSmall: coffeeSmall,
+      imageLarge: calendarLarge,
+      imageSmall: calendarSmall,
       liveUrl: "https://maksymchukhrai.github.io/my-calendar-app/",
-      githubUrl: "hhttps://github.com/MaksymChukhrai/my-calendar-app",
+      githubUrl: "https://github.com/MaksymChukhrai/my-calendar-app",
+    },
+    {
+      id: 11,
+      title: "Financial Dashboard Widget",
+      description: "Displays real-time stock prices for Microsoft, IBM, and Nvidia.",
+      fullDescription: {
+        overview:
+          "Interactive graphs show stock prices and percentage changes for selected companies. The open API of the New York Stock Exchange is used.",
+        role:  "Frontend Developer. Design, programming and layout.",
+        techStack: "React, Axios, React-testing library.",
+      },
+      imageLarge: dashboardLarge,
+      imageSmall: dashboardSmall,
+      liveUrl: "https://maksymchukhrai.github.io/Dashboard-Widget/",
+      githubUrl: "https://github.com/MaksymChukhrai/Dashboard-Widget",
+    },
+    {
+      id: 12,
+      title: "Image Search Engine",
+      description: "Search and find images on any topic using the Pixabay API.",
+      fullDescription: {
+        overview:
+          "A search engine to find images from Pixabay based on user input. It retrieves and displays results in a clean interface.",
+        role:  "Frontend Developer. Idea, design, programming and layout.",
+        techStack: "JavaScript, Pixabay API, Axios, Simplelightbox.",
+      },
+      imageLarge: imageSearchLarge,
+      imageSmall: imageSearchSmall,
+      liveUrl: "https://maksymchukhrai.github.io/magic-picture-finder/",
+      githubUrl: "https://github.com/MaksymChukhrai/magic-picture-finder",
     },
 
 
