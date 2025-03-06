@@ -117,6 +117,27 @@ const Portfolio = () => {
       liveUrl: "https://maksymchukhrai.github.io/CasinoExtra/",
       githubUrl: "https://github.com/MaksymChukhrai/CasinoExtra",
     },
+    {
+      id: 7,
+      title: "Simple radio tuner",
+      description:
+        "Casino Extra - A promotional web app for online casino services in Curaçao.",
+      fullDescription: {
+        overview:
+          "This app focuses on enhancing page load speed and SEO for better promotional reach.",
+        role: "Frontend Developer. I optimized UI, improved page load speed sixfold, and implemented SEO configurations.",
+        techStack: "HTML/CSS, JavaScript.",
+      },
+      imageLarge: casinoLarge,
+      imageSmall: casinoSmall,
+      liveUrl: "https://maksymchukhrai.github.io/CasinoExtra/",
+      githubUrl: "https://github.com/MaksymChukhrai/CasinoExtra",
+    },
+
+
+
+
+
   ];
 
   // State для отслеживания развернутых описаний проектов
