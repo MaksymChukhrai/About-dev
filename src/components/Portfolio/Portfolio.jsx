@@ -17,6 +17,13 @@ import advocateSmall from "../../assets/images/projects/advocate/advocate-mob-sm
 import casinoLarge from "../../assets/images/projects/casino/casino-mob-large.jpg";
 import casinoSmall from "../../assets/images/projects/casino/casino-mob-small.jpg";
 
+import radioLarge from "../../assets/images/projects/MyRadio/radio-lg.webp";
+import radioSmall from "../../assets/images/projects/MyRadio/radio-sm.webp";
+
+import autoserviceSmall from "../../assets/images/projects/autoservice/autoserv-sm.webp";
+import autoserviceLarge from "../../assets/images/projects/autoservice/autoserv-lg.webp";
+
+
 const Portfolio = () => {
   // Данные проектов согласно макету
   const projects = [
@@ -121,19 +128,34 @@ const Portfolio = () => {
       id: 7,
       title: "Simple radio tuner",
       description:
-        "Casino Extra - A promotional web app for online casino services in Curaçao.",
+        "A radio tuner. Open on your phone, connect via Bluetooth.",
       fullDescription: {
         overview:
-          "This app focuses on enhancing page load speed and SEO for better promotional reach.",
-        role: "Frontend Developer. I optimized UI, improved page load speed sixfold, and implemented SEO configurations.",
-        techStack: "HTML/CSS, JavaScript.",
+          "This web app works on any device that has a browser. No registrations, downloads or ads. Just plug in your headphones.",
+        role: "Frontend Developer. Released everything myself. Idea, design, programming and layout.",
+        techStack: "Vanilla JavaScript.",
       },
-      imageLarge: casinoLarge,
-      imageSmall: casinoSmall,
-      liveUrl: "https://maksymchukhrai.github.io/CasinoExtra/",
-      githubUrl: "https://github.com/MaksymChukhrai/CasinoExtra",
+      imageLarge: radioLarge,
+      imageSmall: radioSmall,
+      liveUrl: "https://maksymchukhrai.github.io/MyRadio/",
+      githubUrl: "https://github.com/MaksymChukhrai/MyRadio",
     },
-
+    {
+      id: 8,
+      title: "Autoservice in Austria",
+      description:
+        "Professional car maintenance and repair services in Gleisdorf, Austria.",
+      fullDescription: {
+        overview:
+          "Turbo Autoservice offers expert diagnostics, detailing, and repair services, ensuring your vehicle's optimal performance and appearance.",
+        role: "Frontend Developer. Redesigning layout, refactoring, translating and localizing content, setting up utm for marketing, deploy to hosting.",
+        techStack: "JavaScript, HTML/CSS.",
+      },
+      imageLarge: autoserviceLarge,
+      imageSmall: autoserviceSmall,
+      liveUrl: "https://maksymchukhrai.github.io/Autoservice-Austria",
+      githubUrl: "https://github.com/MaksymChukhrai/Autoservice-Austria",
+    },
 
 
 
@@ -156,9 +178,10 @@ const Portfolio = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3.5,
-    slidesToScroll: 1.5,
+    slidesToShow: 3.8,
+    slidesToScroll: 1,
     arrows: false,
+    centerPadding: "10px",
     responsive: [
       {
         breakpoint: 1200,
