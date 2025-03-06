@@ -271,7 +271,7 @@ const Portfolio = () => {
       {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           variableWidth: false,
         },
