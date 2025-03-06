@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/About-dev/static/css/main.a0b02040.css",
-    "main.js": "/About-dev/static/js/main.24a35c6e.js",
+    "main.js": "/About-dev/static/js/main.20f4932f.js",
     "static/media/Lines_1920x1080_30Fps.webm": "/About-dev/static/media/Lines_1920x1080_30Fps.a1a3ce5b361007844a59.webm",
     "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-Italic-VariableFont_wght.e8f632769d4c298b0319.ttf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/About-dev/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
@@ -25,6 +25,7 @@
     "static/media/cinemania-mob-small.jpg": "/About-dev/static/media/cinemania-mob-small.904ff8e62e95a090b4dc.jpg",
     "static/media/client-tab.webp": "/About-dev/static/media/client-tab.5b7aa8ccf6c719fb1301.webp",
     "static/media/pc-menu-choose-background.webp": "/About-dev/static/media/pc-menu-choose-background.26163b3d967b3f939029.webp",
+    "static/media/coffee-lg.webp": "/About-dev/static/media/coffee-lg.14ae84d954357a6a2c1b.webp",
     "static/media/footer_tab.webp": "/About-dev/static/media/footer_tab.9bc6bd50dbaf97e29cbb.webp",
     "static/media/autoserv-lg.webp": "/About-dev/static/media/autoserv-lg.cd8d52a91ee8213b7d58.webp",
     "static/media/quality.png": "/About-dev/static/media/quality.9971c8b92160331e3fe2.png",
@@ -35,6 +36,7 @@
     "static/media/mob-menu-background.webp": "/About-dev/static/media/mob-menu-background.56ed08114d6004c518b2.webp",
     "static/media/skills-background.webp": "/About-dev/static/media/skills-background.8d7cef1ba71086e20050.webp",
     "static/media/autoserv-sm.webp": "/About-dev/static/media/autoserv-sm.85868ffcee5bc8a8ccf4.webp",
+    "static/media/coffee-sm.webp": "/About-dev/static/media/coffee-sm.9bd5c181286b0bbf039d.webp",
     "static/media/footer_mob.webp": "/About-dev/static/media/footer_mob.95a793f9850e81c8b871.webp",
     "static/media/postman.svg": "/About-dev/static/media/postman.075308f810e058f7c56e5fe3b2609510.svg",
     "static/media/me-mob.webp": "/About-dev/static/media/me-mob.8a1eaf67b98b566a8cd0.webp",
@@ -64,10 +66,10 @@
     "static/media/html.svg": "/About-dev/static/media/html.b3218f6fc8a8923c436e8a051f59756c.svg",
     "static/media/LinkedIn.svg": "/About-dev/static/media/LinkedIn.259ef18f94c2dd948b6c31c3da4c3ec4.svg",
     "main.a0b02040.css.map": "/About-dev/static/css/main.a0b02040.css.map",
-    "main.24a35c6e.js.map": "/About-dev/static/js/main.24a35c6e.js.map"
+    "main.20f4932f.js.map": "/About-dev/static/js/main.20f4932f.js.map"
   },
   "entrypoints": [
     "static/css/main.a0b02040.css",
-    "static/js/main.24a35c6e.js"
+    "static/js/main.20f4932f.js"
   ]
 }
