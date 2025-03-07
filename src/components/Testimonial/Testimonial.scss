@@ -1,4 +1,4 @@
-@media screen and (max-width:767px){
+@media screen and (max-width: 767px){
 .testimonial-container{
     padding: 40px 16px;
     .section-title{
@@ -45,8 +45,10 @@
         width: 343px;
         height: 343px;
         margin:0 auto;
-        background: url(../../assets/images/client-mob.webp);
+        background: url(../../assets/images/client-mob_343x343.webp);
+        background-repeat: no-repeat;
     }
 }
-}
 
+
+}

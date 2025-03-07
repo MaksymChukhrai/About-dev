@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: row;
     gap: 24px;
+    align-items: flex-end;
     .testimonial-content {
       font-size: 20px;
       width: 728px;
@@ -35,15 +36,23 @@
     }
     .client-image {
       margin: 0;
-      background: url("../../assets/images/client-mob.webp");
+      background: url("../../assets/images/client-mob_343x343.webp");
       width: 352px;
       height: 339px;
+      
     }
   }
   .client-info{
     h4{
         font-size: 24px;
     }
+  }
+  .client-info>a>h4:hover{
+    color: #0066cc;
+    cursor:pointer;
+  }
+  .client-info > a > h4 {
+    transition: color var(--transition-speed); 
   }
 
 

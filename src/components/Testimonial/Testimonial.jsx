@@ -14,7 +14,9 @@ const Testimonial = () => {
             Your commitment to delivering a polished and functional website has exceeded our expectations. Moreover, your responsiveness and willingness to accommodate any changes or updates have been commendable. You've been a pleasure to work with, and your proactive communication ensured that the project progressed smoothly and efficiently.
             </p>
             <div className="client-info">
+              <a href="https://igor-tarasenko.com/" target="_blank" rel="noopener noreferrer">
               <h4>Igor Tarasenko</h4>
+              </a>
               <p>CEO, Law Company Tarasenko and Partners</p>
             </div>
           </div>

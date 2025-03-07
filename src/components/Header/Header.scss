@@ -8,6 +8,7 @@
     z-index: 100;
      background: linear-gradient(109deg, #176987 1.67%, #D8F3FF 45.85%, #BCDBDD 96.56%);
     padding: 0;
+    max-width: 100vw;
     
     &.scrolled {
       background-color: rgba(0, 0, 0, 0.9);
@@ -15,13 +16,16 @@
   }
   
   .header_container {
-    max-width: 1200px;
-    padding: 8px 16px;
+      padding: 8px 16px;
     justify-content: space-between;
     margin: 0 auto;
     display: flex;
     align-items: center;
     position: relative;
+    @media (max-width: 768px) {
+      width: 100%;
+      padding: 8px 10px;
+    }
   }
   
   .header_name {

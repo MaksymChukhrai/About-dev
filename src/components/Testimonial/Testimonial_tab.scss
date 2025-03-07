@@ -35,10 +35,12 @@
     }
   }
   .client-image {
-    width: 688px;
-    height: 549px;
+    width: 529px;
+    height: 422px;
     margin: 0 auto;
     margin-top: 24px;
-    background: url(../../assets/images/client-tab.webp);
-  }
+    background: url(../../assets/images/client-tab_688x549.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
 }
