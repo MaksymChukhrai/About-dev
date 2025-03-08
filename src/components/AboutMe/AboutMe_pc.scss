@@ -1,9 +1,13 @@
 @media screen and (min-width: 1280px) {
-  .about-me{
+  .about-me {
     position: relative;
-     background-repeat: no-repeat;
-    background-image: linear-gradient(to right, rgba(227, 227, 235, 0.787), rgba(6, 42, 61, 0.088)), url('../../assets/images/skills-pc-menu-background.webp');
-   
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        to right,
+        rgba(227, 227, 235, 0.787),
+        rgba(6, 42, 61, 0.088)
+      ),
+      url("../../assets/images/skills-pc-menu-background.webp");
   }
   .about-container {
     padding: 110px 88px;
