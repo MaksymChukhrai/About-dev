@@ -3,6 +3,7 @@
 .portfolio {
     padding: 40px 0;
     background-color: #f5f5f5;
+    transition: all var( --transition-speed);
   }
   
 //   .container {
@@ -64,7 +65,7 @@
     width: 352px;
     display: flex;
     flex-direction: column;
-    transition: all 0.3s ease;
+    transition: all var( --transition-speed);
 
   }
   
@@ -72,7 +73,7 @@
   .project-image {
     width: 100%;
     overflow: hidden;
-    transition: height 0.3s ease;
+    transition: all var( --transition-speed);
     position: relative;
   }
   
@@ -114,7 +115,12 @@
   .project-description {
     flex-grow: 1;
     display: flex;
+
     flex-direction: column;
+    transition: all var( --transition-speed) ease-in-out;
+    &.expanded {
+      max-height: 500px; // Задай достаточную высоту, подгоняя под контент
+    }
   }
   
   .description-text,
