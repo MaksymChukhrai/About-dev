@@ -37,10 +37,32 @@ const Header = () => {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header_container">
-        <div className="header_name">
-          <span >Maksym</span>
-          <span >Chukhrai</span>
-         </div>
+      <div className="header_name">
+  <a href="https://mchukhrai.com" title="Перейти на главную страницу">
+    <div className="name-container">
+      <span className="first-name">Maksym</span>
+      <span className="last-name">Chukhrai</span>
+    </div>
+  </a>
+  <span 
+    className="tooltip-icon" 
+    onMouseEnter={(e) => {
+      const tooltip = document.getElementById('name-tooltip');
+      tooltip.style.visibility = 'visible';
+      tooltip.style.opacity = '1';
+    }}
+    onMouseLeave={(e) => {
+      const tooltip = document.getElementById('name-tooltip');
+      tooltip.style.visibility = 'hidden';
+      tooltip.style.opacity = '0';
+    }}
+  >
+    i
+  </span>
+  <div id="name-tooltip" className="tooltip">
+  Pronounced in English as: Maksym Chukhrai [mak-SEEM choo-HRAI]
+  </div>
+</div>
         <nav className="nav-menu">
           <ul>
             <li onClick={() => scrollToSection('about')}>About Me</li>
