@@ -71,7 +71,7 @@ height: 389px;
 };
 
 
-.contact-btn{
+.contact-btn {
     max-width: 343px;
     padding: 14px 60px;
     align-items: center;
@@ -82,16 +82,43 @@ height: 389px;
     margin: 0 auto;
     cursor: pointer;
     margin-top: 16px;
-    a{
+    transition: all var(--transition-speed); 
+
+    &:hover {
+        filter: brightness(1.5);
+        box-shadow: 6px 6px 40px 0px rgba(255, 255, 255, 0.4);
+    }
+
+    a {
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.2; /* 24px */
         letter-spacing: 0.4px;
         color: #FFF;
-    }
+        position: relative;
+        display: inline-block;
+        transition: all var(--transition-speed);
 
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px; // Отступ подчеркивания
+            width: 0;
+            height: 2px;
+            background-color: #FFF; // Цвет подчеркивания
+            transition: width var(--transition-speed);
+        }
+
+        &:hover::after {
+            width: 100%; // Подчеркивание плавно появляется
+        }
+    }
 }
+
+
+
 .hero-text{
     background: linear-gradient(110deg, #020D1F 3.16%, #0F264F 96.53%);
     display: flex;

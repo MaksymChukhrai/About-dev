@@ -27,6 +27,7 @@
         .reason-card-wrapper {
           display: flex;
           gap: 24px;
+          flex-direction: row;
     
           .reason-card {
             flex: 1;

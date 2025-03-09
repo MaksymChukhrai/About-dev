@@ -26,6 +26,13 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    .reason-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .reason-card{
         display: flex;
         flex-direction: column;
